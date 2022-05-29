@@ -7,6 +7,22 @@ body {
     --primary-color:#EA1C2C;
 }
 
+.blurb h2{
+    color:var(--primary-color);
+    font-weight:100;
+    font-size: 2.5rem;
+}
+.blurb p{
+    color:#f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content{
+    margin-top: 100px;
+}
+
 #mainNavbar{
     font-size: 1.5rem;
     font-weight: 100;
@@ -25,3 +41,21 @@ body {
     font-size: 1.5rem;
 }
 
+#headingGroup span{
+    color:var(--primary-color)
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+
+@media (max-width:1200px) {
+
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+
+}
