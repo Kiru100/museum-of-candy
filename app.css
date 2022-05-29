@@ -3,7 +3,7 @@ body {
   font-family: "Nunito",sans-serif;
 }
 
-root{
+:root{
     --primary-color:#EA1C2C;
 }
 
